@@ -13,7 +13,8 @@ $(document).ready(function() {
 
 
     userFeed.run();
-$('.carousel').carousel();
+
+    
     
     // This will create a single gallery from all elements that have class "gallery-item"
     $('.gallery').magnificPopup({
@@ -25,7 +26,5 @@ $('.carousel').carousel();
     });
 
     $('#wrapper').fullpage();
-    
- 
-  $('.carousel').carousel();
+
 });
