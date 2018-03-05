@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: 'NextRust-Black';
     src: url('../font/nexa-rust/NexaRustSans-Black.otf') format('opentype');
@@ -17,8 +15,8 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    width: auto;
-   
+    width: 100%;
+
 }
 
 .container-fluid {
@@ -38,13 +36,17 @@ body {
 
 /* Typeography*/
 
-h1 {
+h1, h2 {
     font-size: 4rem;
     font-family: 'NextRust-Black';
 }
 
+h3 {
+    font-size: 2rem;
+    font-family: 'NextRust-Black'; 
+}
 p1 {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 p3 {
@@ -73,17 +75,22 @@ p3 {
 
 }
 
-
-
-@media screen and (min-width: 400px) {
-    .text-container {}
+.aboutPara {
+    font-size: 1.8rem
 }
+
+.Service-Para {
+    font-size: 1.2rem;
+}
+
+
+@media screen and (min-width: 400px) {}
 
 @media screen and (min-width: 768px) {
     .aboutUs {
         padding-top: 5em;
     }
-    
+
     .carousel-caption {
         top: 40%;
     }
@@ -101,25 +108,25 @@ p3 {
 /* Hero Section*/
 
 #heroContainer {
-    width:auto;
+    width: auto;
 }
+
 .hero {
     /* The image used */
-    background-image: url("/img/Hero.jpg");
+    background: url("../img/Hero.jpg");
     height: 31vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     overflow: hidden;
-    width: 98%;
-    
+    width: 100%;
+    background-color: green;
+
 
 }
 
-@media screen and (min-width: 400px) {
-
-}
+@media screen and (min-width: 400px) {}
 
 
 @media screen and (min-width: 768px) {
@@ -137,12 +144,9 @@ p3 {
 @media screen and (min-width: 1140px) {
     .hero {
         height: 100vh;
-       
+
     }
 }
-
-
-
 
 /*About Us*/
 
@@ -170,14 +174,17 @@ p3 {
 /*Instagram Instafeed */
 
 .gallery {
-    background-image: url("/img/Gal2.jpg");
+    background-image: url("../img/Gal2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 0;
+    position: relative;
+    overflow: hidden;
 
 }
 
 .img-thumbnail {
-    width: 450px;
+    width: 250px;
     height: 200px;
     border: hidden
 }
@@ -189,13 +196,25 @@ p3 {
 }
 
 .instaimg img {
-    margin-bottom: em;
+    margin-bottom: 0em;
+    float: none;
+    position: relative;
+    left: 18%;
 }
+
 
 .instaimg img:hover {
     opacity: 0.8;
     -mox-opacity: 0.8;
     -webkit-opacity: 0.8;
+}
+
+
+@media screen and (min-width: 500px) {
+    .instaimg img {
+        left: 10%;
+    }
+
 }
 
 
@@ -259,9 +278,6 @@ p3 {
     z-index: 2;
 }
 
-
-
-
 /*Services*/
 
 /*Services*/
@@ -270,8 +286,9 @@ p3 {
 
 .services {
     width: auto;
-    height: 35vh;
+    height: auto;
     background-color: #7c835e;
+    overflow: hidden;
 
 }
 
@@ -281,6 +298,83 @@ p3 {
     }
 }
 
+#service-icons {
+    width: 15em;
+    text-align: center;
+    margin-left: 2em;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.icon-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -0%);
+    /*Remove the border later!*/
+    overflow: hidden;
+
+
+}
+
+
+
+@media screen and (min-width: 400px) {
+    .icon-container {
+        transform: translate(3%, -0%);
+    }
+}
+
+
+@media screen and (min-width: 768px) {}
+
+
+@media screen and (min-width: 960px) {
+    .icon-container {
+        transform: translate(25%, -0%);
+    }
+    .service-container {
+        padding-top: 1em;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+    .icon-container {
+        transform: translate(50%, -0%);
+    }
+    .service-container {
+        padding-top: 1em;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .icon-container {
+        transform: translate(25%, -0%);
+    }
+    .service-container {
+        padding-top: 5em;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .icon-container {
+        transform: translate(45%, -0%);
+    }
+    .service-container {
+        padding-top: 5em;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    .icon-container {
+        transform: translate(89%, -0%);
+    }
+
+}
 
 
 /*Carousel*/
@@ -356,12 +450,12 @@ p3 {
 }
 
 @media screen and (min-width: 960px) {
-.carousel,
-.carousel-inner,
-.carousel-inner {
-    height: 50vh;
-    
-}
+    .carousel,
+    .carousel-inner,
+    .carousel-inner {
+        height: 50vh;
+
+    }
 }
 
 
@@ -435,7 +529,7 @@ form label {
 
 .contactusBG h1 {
     color: white;
-    
+
 }
 
 .contactusBG p1 {
@@ -453,69 +547,86 @@ form label {
     background-color: #fcb040;
     border-color: #fcb040;
     border-color: #fcb040;
-   box-shadow: -1px -1px 42px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 42px 0px rgba(0, 0, 0, 0.75);
     margin-top: 2em;
-    
+
 }
 
 
-@media screen and (min-width: 400px) {
-.form-group {
-        padding-left: 10em;
-    
+@media screen and (min-width:350px) {
+    .form-group {
+        padding-left: 6em;
+
     }
-    
+}
+
+@media screen and (min-width: 400px) {
+    .form-group {
+        padding-left: 10em;
+
+    }
+
     .btn-primary {
         margin-left: 3em;
     }
 }
 
 
-@media screen and (min-width: 768px) {
-.form-group {
-        padding-left: 19em;
-    
-    }
-    #emailContact {
-        width: 40em;
-    }
-    #Comment {
-        width: 40em;
-    }
-    .btn-primary {
-        margin-left: ;
-    }
-    .group-contact {
-        padding-top: 25em;
-    }
-
-}
+@media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 960px) {
-    
     .form-group {
-    
-        padding-left: 25em;
-    
-    }
-    #emailContact {
-        width: 50em;
-    }
-    #Comment {
-        width: 50em;
-    }
-    .btn-primary {
-        margin-left: 0em;
-    }
-    .group-contact {
-        padding-top: 5em;
+        padding-left: 35em;
+
     }
 
-    
+    .btn-primary {
+        margin-right: 6em;
+    }
+
 }
 
+@media screen and (min-width: 1280px) {
+    .form-group {
+        padding-left: 39em;
+    }
+        #Comment {
+            width: 50em;
+        }
+        
+    #emailContact {
+    width: 50em;
+}
 
+}
 
+@media screen and (min-width: 1366px) {
+    .form-group {
+        padding-left: 40em;
+    }
+        #Comment {
+            width: 50em;
+        }
+        
+    #emailContact {
+    width: 50em;
+}
+
+}
+
+@media screen and (min-width: 1800px) {
+    .form-group {
+        padding-left: 70em;
+    }
+        #Comment {
+            width: 50em;
+        }
+        
+    #emailContact {
+    width: 50em;
+}
+
+}
 
 /*footer*/
 
@@ -527,38 +638,31 @@ form label {
     background-color: #683025;
     height: 50vh;
     text-align: center;
-
+    overflow: hidden;
+    padding-top: em;
+    color: white
 }
 
-#footerEmail {
-    
-}
+
 
 p3 span {
     display: block;
     text-align: center;
 }
 
-
-
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
     .footer {
-        height: 20vh;
-        padding-left: 2em;
-       
-    }
-    #rowFooter {
-        padding-top:5em;
-    
+        height: 25vh;
+        padding: 6em;
     }
     
-    p3 {
-        color:white;
-        
+}
+
+
+@media screen and (min-width: 1800px) {
+    .footer {
+        height: 25vh;
+        padding: 6em;
     }
     
-    #footerEmail {
-        text-align: justify;
-    }
 }
