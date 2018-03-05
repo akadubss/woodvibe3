@@ -124,16 +124,16 @@ p3 {
 
 .hero {
     background-image: url('../img/hero.jpg');
-    height: 31vh;
+     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    overflow: hidden;
-
-
-
+    max-height: 760px
 }
+
+
+
 
 @media screen and (min-width: 400px) {}
 
