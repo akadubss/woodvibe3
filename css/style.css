@@ -22,6 +22,7 @@ body {
 .container-fluid {
     padding: 0;
     margin: 0;
+  
 }
 
 /*navagation*/
@@ -129,7 +130,6 @@ p3 {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    width: 100%;
 
 
 
@@ -150,9 +150,11 @@ p3 {
     }
 }
 
-@media screen and (min-width: 1140px) {
+
+
+@media screen and (min-width  : 1080px) {
     .hero {
-        height: 100vh;
+        max-height: 760px;
 
     }
 }
@@ -165,13 +167,13 @@ p3 {
 
 .aboutUs {
     width: auto;
-    height: 31vh;
     background-color: #fcb040;
 }
 
 @media screen and (min-width: 960px) {
     .aboutUs {
-        height: 50vh;
+        height: ;
+       max-height: 760px;
     }
 }
 
@@ -429,6 +431,7 @@ p3 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    max-height: 760px
 
 
 }
@@ -523,10 +526,11 @@ box-shadow: -1px -1px 42px 2px rgba(0, 0, 0, 0.75);
 
 .footer {
     background-color: #683025;
-    height: 50vh;
+    height: vh;
     text-align: center;
     color: white;
      padding: 1em;
+    max-height: 760px;
     
 }
 
@@ -545,7 +549,7 @@ p3 span {
 
 @media screen and (min-width: 960px) {
     .footer {
-        height: 25vh;
+       
        
     }
 
@@ -554,7 +558,7 @@ p3 span {
 
 @media screen and (min-width: 1800px) {
     .footer {
-        height: 25vh;
+        
        
     }
 
