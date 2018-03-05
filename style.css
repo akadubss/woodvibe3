@@ -1,0 +1,569 @@
+@font-face {
+    font-family: 'NextRust-Black';
+    src: url('../font/nexa-rust/NexaRustSans-Black.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Yoga Flame';
+    src: url('../font/YogaFlame/HYogaFlame-Regular.ttf') format('truetype');
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+  
+}
+
+/*navagation*/
+
+/*navagation*/
+
+/*navagation*/
+
+/* Typeography*/
+
+/* Typeography*/
+
+/* Typeography*/
+
+h1,
+h2 {
+    font-size: 4rem;
+    font-family: 'NextRust-Black';
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'NextRust-Black';
+}
+
+p1 {
+    font-size: 2rem;
+}
+
+p3 {
+    font-size: 1.2rem;
+}
+
+.text-container {
+    /*Remove the border later!*/
+    border: 25px solid green;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.carousel-caption {
+    position: absolute;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .9);
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    border: 1px dashed deeppink;
+    width: 100%;
+    height: 30%;
+    background-color: ;
+
+}
+
+.aboutPara {
+    font-size: 1.8rem
+}
+
+.Service-Para {
+    font-size: 1.2rem;
+}
+
+.form-group {
+    font-size: 1.5rem;
+    font-family: 'NextRust-Black';
+
+}
+
+
+@media screen and (min-width: 400px) {}
+
+@media screen and (min-width: 768px) {
+    .aboutUs {
+        padding-top: 5em;
+    }
+
+    .carousel-caption {
+        top: 40%;
+    }
+
+}
+
+@media screen and (min-width: 1170px) {}
+
+
+
+/* Hero Section*/
+
+/* Hero Section*/
+
+/* Hero Section*/
+
+#heroContainer {
+    width: auto;
+}
+
+/* The image used */
+
+.hero {
+    background-image: url('../img/hero.jpg');
+     height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-height: 500px;
+}
+
+
+
+
+@media screen and (min-width: 350px) {
+    .hero {
+          height: 32vh;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .hero {
+          max-height: 1000px;
+    }
+}
+
+
+
+@media screen and (min-width  : 1080px) {
+
+}
+
+/*About Us*/
+
+/*About Us*/
+
+/*About Us*/
+
+.aboutUs {
+    width: auto;
+    background-color: #fcb040;
+}
+
+@media screen and (min-width: 960px) {
+    .aboutUs {
+        height: ;
+       max-height: 760px;
+    }
+}
+
+
+/*Instagram Instafeed */
+
+/*Instagram Instafeed */
+
+/*Instagram Instafeed */
+
+.gallery {
+    background-image: url('../img/Gal2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.img-thumbnail {
+    width: 250px;
+    height: 200px;
+    border: hidden
+}
+
+.instaimg {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.instaimg img {
+    margin-bottom: 0em;
+    float: none;
+    position: relative;
+    left: 18%;
+}
+
+
+.instaimg img:hover {
+    opacity: 0.8;
+    -mox-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+
+
+@media screen and (min-width: 500px) {
+    .instaimg img {
+        left: 10%;
+    }
+
+}
+
+
+/*Parallax*/
+
+/*Parallax*/
+
+/*Parallax*/
+
+.bcg-parallax {
+    padding: 150px 0;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 10em;
+
+}
+
+.bcg {
+    background: url('../img/img3.jpg');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+.bcg-parallax2 {
+    padding: 150px 0;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 10em;
+
+
+}
+
+.bcg {
+    background: url('../img/img3.jpg');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+
+.content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2;
+}
+
+/*Services*/
+
+/*Services*/
+
+/*Services*/
+
+.services {
+    width: auto;
+    height: auto;
+    background-color: #7c835e;
+    overflow: hidden;
+    max-height: 760px;
+
+}
+.service-container{
+        width: 100%;
+   max-width: 100%;
+       margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+
+
+#service-icons {
+
+
+
+}
+
+.icon-container {
+
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+.service-container{
+    max-width: 80%;
+       
+
+}
+}
+
+
+
+
+/*Carousel*/
+
+/*Carousel*/
+
+/*Carousel*/
+
+/*Carousel Capture is under typegraphy*/
+#myCarousel {
+    max-height: 760px;
+}
+.carousel,
+.carousel-inner,
+.carousel-inner {
+    width: auto;
+    height: 31vh;
+    background-color: #375543;
+}
+
+.item {
+    height: 100%;
+}
+
+.item:nth-child(1) {
+    background: ;
+}
+
+.item:nth-child(2) {
+    background: ;
+}
+
+.item:nth-child(3) {
+    background: ;
+}
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+
+.glyphicon {
+    top: 50%;
+    z-index: 5;
+}
+
+.carousel-indicators {
+    left: 2em;
+}
+
+@media screen and (min-width: 960px) {
+    .carousel,
+    .carousel-inner,
+    .carousel-inner {
+        height: 50vh;
+
+    }
+}
+
+
+/*contact us */
+
+/*contact us */
+
+/*contact us */
+
+.contactusBG {
+    background: url('../img/wood.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-height: 760px;
+}
+
+
+#contact h1 {
+    display: table;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 2.5em;
+    text-shadow: 4px 5px 5px black;
+}
+
+#contact p1 {
+    text-shadow: 4px 5px 5px black;
+    color: white;
+}
+
+
+label {
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+input {
+    border: 2px solid #CCC !important;
+    height: 35px;
+    border-radius: 3px;
+    max-width: 100%;
+}
+
+
+.btn {
+    border-radius: 0;
+margin-top:1em;
+}
+
+.btn-primary {
+    background-color: #fcb040;
+    border-color: #fcb040;
+    border-color: #fcb040;
+    box-shadow: -1px -1px 42px 0px rgba(0, 0, 0, 0.75);
+    
+
+}
+
+.form-group {
+    margin-bottom: 0;
+    text-align: left;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'NextRust-Black';
+
+}
+
+#form-work {
+    margin-bottom: 0;
+
+}
+
+#contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#buttonWrapper {
+    width: 100%;
+    max-width: 200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 3px 0;
+}
+
+.control-label {
+box-shadow: -1px -1px 42px 2px rgba(0, 0, 0, 0.75);
+}
+
+.form-control {
+    box-shadow: -1px -1px 42px 2px rgba(0, 0, 0, 0.75);
+}
+
+/*footer*/
+
+/*footer*/
+
+/*footer*/
+
+.footer {
+    background-color: #683025;
+    height: vh;
+    text-align: center;
+    color: white;
+     padding: 1em;
+    max-height: 760px;
+    
+}
+
+#footerWrapper {
+    width:100%;
+    max-width: 100em;
+    margin: 0 auto;
+   
+}
+
+
+p3 span {
+    display: block;
+    text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+    .footer {
+       
+       
+    }
+
+}
+
+
+@media screen and (min-width: 1800px) {
+    .footer {
+        
+       
+    }
+
+}
