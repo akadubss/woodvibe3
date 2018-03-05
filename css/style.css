@@ -129,7 +129,7 @@ p3 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    max-height: 760px
+    max-height: 680px
 }
 
 
@@ -154,7 +154,7 @@ p3 {
 
 @media screen and (min-width  : 1080px) {
     .hero {
-        max-height: 760px;
+        max-height: 650px;
 
     }
 }
