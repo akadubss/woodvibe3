@@ -110,9 +110,8 @@ p3 {
 #heroContainer {
     width: auto;
 }
-
+/* The image used */
 .hero {
-    /* The image used */
     background-image: url('../img/Hero.jpg');
     height: 31vh;
     background-position: center;
