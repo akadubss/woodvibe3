@@ -112,7 +112,7 @@ p3 {
 }
 /* The image used */
 .hero {
-    background-image: url('../img/Hero.jpg');
+    background-image: url('../img/hero.jpg');
     height: 31vh;
     background-position: center;
     background-repeat: no-repeat;
