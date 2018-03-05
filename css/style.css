@@ -1,0 +1,564 @@
+
+
+@font-face {
+    font-family: 'NextRust-Black';
+    src: url('../font/nexa-rust/NexaRustSans-Black.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Yoga Flame';
+    src: url('../font/YogaFlame/HYogaFlame-Regular.ttf') format('truetype');
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: auto;
+   
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/*navagation*/
+
+/*navagation*/
+
+/*navagation*/
+
+/* Typeography*/
+
+/* Typeography*/
+
+/* Typeography*/
+
+h1 {
+    font-size: 4rem;
+    font-family: 'NextRust-Black';
+}
+
+p1 {
+    font-size: 1rem;
+}
+
+p3 {
+    font-size: 1.2rem;
+}
+
+.text-container {
+    /*Remove the border later!*/
+    border: 25px solid green;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.carousel-caption {
+    position: absolute;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .9);
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    border: 1px dashed deeppink;
+    width: 100%;
+    height: 30%;
+    background-color: ;
+
+}
+
+
+
+@media screen and (min-width: 400px) {
+    .text-container {}
+}
+
+@media screen and (min-width: 768px) {
+    .aboutUs {
+        padding-top: 5em;
+    }
+    
+    .carousel-caption {
+        top: 40%;
+    }
+
+}
+
+@media screen and (min-width: 1170px) {}
+
+
+
+/* Hero Section*/
+
+/* Hero Section*/
+
+/* Hero Section*/
+
+#heroContainer {
+    width:auto;
+}
+.hero {
+    /* The image used */
+    background-image: url("/img/Hero.jpg");
+    height: 31vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 98%;
+    
+
+}
+
+@media screen and (min-width: 400px) {
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .hero {
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .hero {
+        height: 100vh;
+       
+    }
+}
+
+
+
+
+/*About Us*/
+
+/*About Us*/
+
+/*About Us*/
+
+.aboutUs {
+    width: auto;
+    height: 31vh;
+    background-color: #fcb040;
+}
+
+@media screen and (min-width: 960px) {
+    .aboutUs {
+        height: 50vh;
+    }
+}
+
+
+/*Instagram Instafeed */
+
+/*Instagram Instafeed */
+
+/*Instagram Instafeed */
+
+.gallery {
+    background-image: url("/img/Gal2.jpg");
+    background-size: cover;
+    padding-top: 0;
+
+}
+
+.img-thumbnail {
+    width: 450px;
+    height: 200px;
+    border: hidden
+}
+
+.instaimg {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.instaimg img {
+    margin-bottom: em;
+}
+
+.instaimg img:hover {
+    opacity: 0.8;
+    -mox-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+
+
+/*Parallax*/
+
+/*Parallax*/
+
+/*Parallax*/
+
+.bcg-parallax {
+    padding: 150px 0;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 10em;
+
+}
+
+.bcg {
+    background: url('../img/img3.jpg');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+.bcg-parallax2 {
+    padding: 150px 0;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 10em;
+
+
+}
+
+.bcg {
+    background: url('../img/img3.jpg');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+
+.content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+/*Services*/
+
+/*Services*/
+
+/*Services*/
+
+.services {
+    width: auto;
+    height: 35vh;
+    background-color: #7c835e;
+
+}
+
+@media screen and (min-width: 960px) {
+    .services {
+        height: 50vh;
+    }
+}
+
+
+
+/*Carousel*/
+
+/*Carousel*/
+
+/*Carousel*/
+
+/*Carousel Capture is under typegraphy*/
+
+.carousel,
+.carousel-inner,
+.carousel-inner {
+    width: auto;
+    height: 31vh;
+    background-color: #375543;
+}
+
+.item {
+    height: 100%;
+}
+
+.item:nth-child(1) {
+    background: ;
+}
+
+.item:nth-child(2) {
+    background: ;
+}
+
+.item:nth-child(3) {
+    background: ;
+}
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+
+.glyphicon {
+    top: 50%;
+    z-index: 5;
+}
+
+.carousel-indicators {
+    left: 2em;
+}
+
+@media screen and (min-width: 960px) {
+.carousel,
+.carousel-inner,
+.carousel-inner {
+    height: 50vh;
+    
+}
+}
+
+
+/*contact us */
+
+/*contact us */
+
+/*contact us */
+
+.contactusBG {
+    background: url('../img/wood.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+
+#contact h1 {
+    display: table;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 2.5em;
+    text-shadow: 4px 5px 5px black;
+}
+
+#contact p1 {
+    text-shadow: 4px 5px 5px black;
+}
+
+
+form {
+    margin: 2em auto;
+
+
+}
+
+form label {
+    position: relative;
+    display: block;
+}
+
+#emailContact {
+    width: 25em;
+}
+
+.form-group {
+    padding-left: 5em;
+}
+
+
+#Comment {
+    height: 10em;
+    width: 25em;
+    box-shadow: -1px -1px 42px 0px rgba(0, 0, 0, 0.75);
+}
+
+#emailContact {
+    box-shadow: -1px -1px 42px 2px rgba(0, 0, 0, 0.75);
+}
+
+.buttonholder {
+    text-align: center;
+
+}
+
+.contactusBG h1 {
+    color: white;
+    
+}
+
+.contactusBG p1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 0;
+
+}
+
+.btn-primary {
+    background-color: #fcb040;
+    border-color: #fcb040;
+    border-color: #fcb040;
+   box-shadow: -1px -1px 42px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 2em;
+    
+}
+
+
+@media screen and (min-width: 400px) {
+.form-group {
+        padding-left: 10em;
+    
+    }
+    
+    .btn-primary {
+        margin-left: 3em;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+.form-group {
+        padding-left: 19em;
+    
+    }
+    #emailContact {
+        width: 40em;
+    }
+    #Comment {
+        width: 40em;
+    }
+    .btn-primary {
+        margin-left: ;
+    }
+    .group-contact {
+        padding-top: 25em;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+    
+    .form-group {
+    
+        padding-left: 25em;
+    
+    }
+    #emailContact {
+        width: 50em;
+    }
+    #Comment {
+        width: 50em;
+    }
+    .btn-primary {
+        margin-left: 0em;
+    }
+    .group-contact {
+        padding-top: 5em;
+    }
+
+    
+}
+
+
+
+
+/*footer*/
+
+/*footer*/
+
+/*footer*/
+
+.footer {
+    background-color: #683025;
+    height: 50vh;
+    text-align: center;
+
+}
+
+#footerEmail {
+    
+}
+
+p3 span {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .footer {
+        height: 20vh;
+        padding-left: 2em;
+       
+    }
+    #rowFooter {
+        padding-top:5em;
+    
+    }
+    
+    p3 {
+        color:white;
+        
+    }
+    
+    #footerEmail {
+        text-align: justify;
+    }
+}
