@@ -129,34 +129,36 @@ p3 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    max-height: 500px
+    max-height: 500px;
 }
 
 
 
 
-@media screen and (min-width: 400px) {}
+@media screen and (min-width: 350px) {
+    .hero {
+          height: 32vh;
+    }
+    
+}
 
 
 @media screen and (min-width: 768px) {
     .hero {
-        height: 40vh;
+        height: 60vh;
     }
 }
 
 @media screen and (min-width: 960px) {
     .hero {
-        height: 75vh;
+          max-height: 1000px;
     }
 }
 
 
 
 @media screen and (min-width  : 1080px) {
-    .hero {
-        max-height: 650px;
 
-    }
 }
 
 /*About Us*/
@@ -300,6 +302,7 @@ p3 {
     height: auto;
     background-color: #7c835e;
     overflow: hidden;
+    max-height: 760px;
 
 }
 .service-container{
@@ -308,6 +311,7 @@ p3 {
        margin: 0 auto;
     text-align: center;
     padding: 30px 0;
+    
 }
 
 
@@ -343,7 +347,9 @@ p3 {
 /*Carousel*/
 
 /*Carousel Capture is under typegraphy*/
-
+#myCarousel {
+    max-height: 760px;
+}
 .carousel,
 .carousel-inner,
 .carousel-inner {
@@ -425,15 +431,13 @@ p3 {
 /*contact us */
 
 .contactusBG {
-    background: url('../img/hero.jpg');
+    background: url('../img/wood.png');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    max-height: 760px
-
-
+    max-height: 760px;
 }
 
 
