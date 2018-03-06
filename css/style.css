@@ -58,17 +58,19 @@ p3 {
 
 .text-container {
     /*Remove the border later!*/
-    border: 25px solid green;
+   /* border: 25px solid green;*/
     padding-left: 2em;
     padding-right: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 0 auto;
+    text-align: center;
+    
+    
 }
 
 .carousel-caption {
     position: absolute;
     text-shadow: 0 1px 4px rgba(0, 0, 0, .9);
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
     border: 1px dashed deeppink;
@@ -107,7 +109,9 @@ p3 {
 }
 
 @media screen and (min-width: 960px) {
-    
+        .carousel-caption {
+        top: 35%;
+    }
 }
 
 
@@ -158,7 +162,10 @@ p3 {
 
 
 @media screen and (min-width  : 1080px) {
-
+    .hero {
+        height: 100vh;
+        max-height: 900px;
+    }
 }
 
 /*About Us*/
@@ -170,12 +177,13 @@ p3 {
 .aboutUs {
     width: auto;
     background-color: #fcb040;
+    height:45vh;
+    z-index: 2;
 }
 
 @media screen and (min-width: 960px) {
     .aboutUs {
-        height: ;
-       max-height: 760px;
+       max-height: 500px;
     }
 }
 
@@ -332,7 +340,13 @@ p3 {
 @media screen and (min-width: 600px) {
 .service-container{
     max-width: 80%;
-       
+}
+}
+
+@media screen and (min-width: 960px) {
+.service-container{
+    height: 500px;
+       padding-top: 10em;
 
 }
 }
@@ -349,7 +363,7 @@ p3 {
 /*Carousel Capture is under typegraphy*/
 #myCarousel {
     height: 31vh;
-    max-height: 760px;
+    max-height: 500px;
     margin: 0 auto;
     
 }
